@@ -1,0 +1,110 @@
+﻿@charset "utf-8";
+
+@font-face {
+font-family: "GeosansLight";src:url("/assets/GeosansLight.eot?") format("eot"),url("/assets/GeosansLight.woff") format("woff"),url("/assets/GeosansLight.ttf") format("truetype"),url("/assets/GeosansLight.svg#GeosansLight") format("svg");
+font-weight: normal;
+font-style: normal;
+src: local(GeosansLight), url("/assets/GeosansLight.ttf");
+}
+
+body {
+background:#f5f5f5;
+color:silver;
+font-family:Segoe UI,Verdana,Arial;
+font-size:16px;
+letter-spacing:-1px;
+margin:0 auto;
+}
+
+a {
+text-decoration:none;
+outline:0;
+}
+
+a:link,a:visited {
+color:silver;
+}
+
+#container {
+width:960px;
+border:none;
+margin:0 auto;
+}
+
+#header {
+padding-top:35px;
+font-size:40px;
+letter-spacing:-1px;
+-webkit-text-stroke-width:.6px;
+text-shadow:0 1px 0 rgba(0,0,0,0.05);
+border-bottom-style:solid;
+border-bottom-width:1px;
+}
+
+#subhead {
+color:#D3D3D3;
+font-size:20px;
+letter-spacing:-1px;
+-webkit-text-stroke-width:.05px;
+text-shadow:0 .25px 0 rgba(0,0,0,0.01);
+margin:-5px 0 20px 50px;
+}
+
+#menu {
+font-size:22px;
+letter-spacing:-1px;
+}
+
+#menu ul {
+margin:0 auto;
+}
+
+#menu li {
+list-style-type:none;
+}
+
+#menu li a {
+float:right;
+padding:5px 20px;
+}
+.noborder{
+border: 0 !important;
+}
+
+#content {
+background:url(img/mag.png) top right no-repeat;
+padding:30px 0 50px;
+}
+
+#features {
+color:#A45151;
+font-family:Segoe UI,Verdana,Arial;
+font-size:18px;
+letter-spacing:-1px;
+-webkit-text-stroke-width:.05px;
+text-shadow:0 .25px 0 rgba(0,0,0,0.01);
+float:left;
+width:640px;
+padding:20px 0 0 10px;
+}
+
+#footer {
+font-size:18px;
+text-align: center;
+letter-spacing:-1px;
+border-top-style:solid;
+border-top-width:1px;
+-webkit-text-stroke-width:.05px;
+text-shadow:0 .25px 0 rgba(0,0,0,0.01);
+padding:5px 20px;
+}
+
+#menu li a:hover,#menu li.selected a {
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-bottom-color:#900;
+}
+
+.clr{
+clear: both;
+}
